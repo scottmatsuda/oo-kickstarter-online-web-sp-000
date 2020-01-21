@@ -8,7 +8,6 @@ class Backer
   end
   
   def back_project(project)
-    project = Project.new("Magic The Gathering Thing")
     backed_projects << project
   end
   
